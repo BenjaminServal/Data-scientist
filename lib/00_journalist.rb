@@ -24,7 +24,7 @@ end
 
 #Trie la liste de handle par ordre alphabétique.
 def tri_handle(journalists)
-    puts journalists.sort
+    puts journalists.sort_by {|a| a.downcase}
 end
 
 
